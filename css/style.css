@@ -1,5 +1,21 @@
-body {
+/* Definindo o conjunto de caracteres */
+@charset "UTF-8";
 
+/* Dando um reset nas pré-definições existentes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background-image: url(../image/imagem_midle2.jpg);
+	background-position: center;
+    background-size: cover;
+	display: flex;
+	flex-direction: column;
 }
 
 /* ----------------- CONFIGURAÇÃO DO MENU PRINCIPAL ------------------ */
@@ -56,7 +72,9 @@ div#id_centro {
 	width: 60%;
 	height: 60%;
     background-image: url(../image/fundo-medio.jpg);
-    background-size: auto;
+	background-position: center;
+    background-size: cover;
+	opacity: 0.7;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -65,16 +83,27 @@ div#id_centro {
 div#id_centro h1 {
 	justify-self: center;
 	margin: auto;
-	margin-top: 2%;
+	margin-top: 25%;
 }
 
 #img_foto {
-	width: 22%;
-	height: 22%;
-	margin: auto;
-	margin-top: 2%;
+	margin: 0;
+	padding: 0;
+	width: 14vw;
+	height: 27vh;
 	border-radius: 50%;
 	display: flex;
 	flex-direction: column;
-	justify-content: right;
+	align-items: center;
+	justify-content: center;
+	right: 43vw;         /* Definindo a posição em que aparecerá na tela  */
+    bottom: 62vh;        /* Definindo a posição em que aparecerá na tela  */
+	position: fixed;     /* Definindo que elemento fique fixo */
+    z-index: 100;        /* Definindo que elemento se sobreponha aos outros */ 
 }
+
+p {
+	margin: 2em;
+	text-align:justify;
+}
+
