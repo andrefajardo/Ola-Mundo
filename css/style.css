@@ -26,7 +26,7 @@ header {
 	height: 60px;
 	justify-content: space-evenly; /* Distribuição dos ítens horizontalmente*/
 	align-items: center; /* Distribuição dos ítens verticalmente*/
-	background-color: rgb(23, 23, 23);
+	background-color: #0B282E;
     border-radius: 5pt;
 }
 
@@ -56,7 +56,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	color: rgb(20, 150, 65);
+	color:#348FAA;
 } 
 
 /* ----------------- FIM DA CONFIGURAÇÃO MENU PRINCIPAL ------------------ */
@@ -91,7 +91,10 @@ div#id_centro h1 {
 	padding: 0;
 	width: 14vw;
 	height: 27vh;
+	border-style: groove;
+	border-color: #1c4c5a;
 	border-radius: 50%;
+	box-shadow: 0.5em 0.5em 1em #454F51;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
