@@ -11,7 +11,7 @@
 }
 
 body {
-	background-image: url(../image/imagem_midle2.jpg);
+	background-image: url(../images/imagem-midle4.jpg);
 	background-position: center;
     background-size: cover;
 	display: flex;
@@ -26,13 +26,13 @@ header {
 	height: 60px;
 	justify-content: space-evenly; /* Distribuição dos ítens horizontalmente*/
 	align-items: center; /* Distribuição dos ítens verticalmente*/
-	background-color: #0B282E;
+	background-color: #2e2720;
     border-radius: 5pt;
 }
 
 header h1 {
     background: rgb(238,238,238);
-    background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(189,204,189,1) 56%, rgba(140,144,139,1) 100%);
+    background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(189,204,189,1) 56%, rgb(179, 89, 57) 100%);
 	/* background: linear-gradient(to right, #fcc050, #f48d65, #f8ff2e, #47f533);*/
     -webkit-text-fill-color: transparent; /*Propriedades para deixar o texto gradiente*/
     -webkit-background-clip: text; /*Propriedades para deixar o texto gradiente*/
@@ -56,7 +56,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	color:#348FAA;
+	color:#e39458;
 } 
 
 /* ----------------- FIM DA CONFIGURAÇÃO MENU PRINCIPAL ------------------ */
@@ -71,7 +71,7 @@ div#id_centro {
 	border-color: black;
 	width: 60%;
 	height: 60%;
-    background-image: url(../image/fundo-medio.jpg);
+    background-image: url(../images/fundo-medio.jpg);
 	background-position: center;
     background-size: cover;
 	opacity: 0.8;
